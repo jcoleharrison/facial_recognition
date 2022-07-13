@@ -18,7 +18,7 @@ def capture():
         ret, frame = cap.read()
     
         # Cut down frame to 250x250px
-        frame = frame[200:200+512,400:400+512, :]
+        frame = frame[100:100+900,300:300+900, :]
         
         # Collect anchors 
         if cv2.waitKey(1) & 0XFF == ord('a'):

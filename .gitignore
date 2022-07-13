@@ -1,0 +1,11 @@
+# Ignore everything
+/*
+
+# EXCEPT 
+!.gitignore
+!src/v1/*.py
+!src/v1/*.ipynb
+!src/v2/*.py
+!src/v2/*.ipynb
+!requirements.txt
+!README.md
